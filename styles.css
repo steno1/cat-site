@@ -1,0 +1,335 @@
+/*title section*/
+#title{
+    background-color: cadetblue;
+    padding: 5% 10%;
+    
+}
+.title-image{
+    border-radius: 30%;
+}
+/*Nav-bar */
+.navbar{
+    margin-bottom:50px;
+    padding: 0; 
+}
+/* h1, h2, h3*/
+.first_h1{
+    margin-bottom: 40px;
+    color:white;
+}
+.h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: x-large;
+    height: 3rem;
+}
+/* dropdown-item*/
+
+.nav-item{
+    margin: 0px 15px 0px 15px;
+    opacity:0.7;
+}
+.download-button{
+    margin: 0px 15px 0px 0px;
+    background-color: whitesmoke ;
+    margin-bottom: 20px;
+}
+.download-button:hover{
+    background-color: yellowgreen;
+}
+.btn-block{
+    background-color: black;
+    color:white;
+    padding: 5% 10%;
+}
+#features{
+    padding:5% 10%;
+    background-color: white;
+}
+.container-fluid{
+    text-align: center;
+}
+/* icon */
+.icon{
+    padding-bottom: 20px;
+    color:red;
+    opacity:0.7;
+}
+/*testimonial */
+#testimonials{
+    background-color: cadetblue;
+    text-align: center;
+    padding:15px;
+    
+}
+#footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding:15px;
+}
+.testimonial-text{
+    width:60%;
+    text-align: center;
+    margin: auto;
+    padding:15px;
+    color:white;
+}
+.testimonial-image1{
+    border-radius: 30%;
+}
+/*press*/
+#press{
+background-color:white;
+padding:5% 10%;
+
+
+}
+.press-logo{
+    height: 40px;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+  
+}
+/*pricing */
+#pricing{
+    background-color:cadetblue; 
+padding:5% 10%;
+text-align: center;
+}
+.priceh2{
+    color: white;
+}
+.pricep{
+    color:white;
+}
+#cta{
+    background-color: white;
+    padding:5% 10%;
+text-align: center;
+}
+.last-button{
+    margin: 20px 15px 0px 15px;
+    background-color: teal;
+    
+}
+.last-button:hover{
+    background-color: green;
+}
+/*footer*/
+#footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding:15px;
+    color:white;
+    opacity: 0.8;
+}
+
+/*media query, making it mobile responsive*/
+@media (max-width:993px){
+    /*title*/
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        height: 300px;
+        margin: 20px;
+    }
+    /* h1, h2, h3 , h4*/
+    h1{
+        font-size: 80px;
+        line-height: 2;
+    }
+    .h2, h3{
+        
+        font-size:70px
+    }
+    .first_h1{
+        font-size: 60px;
+    }
+    h4{
+        font-size:90px ;
+        font-weight: bolder;
+    }
+    /* nav-item */
+    .nav-item{
+        margin: 0px 0.9375rem 0px 0.9375rem;
+        opacity:0.7;
+    
+    }
+    /*download-button  */
+    .download-button{
+        margin: 0px 30px 0px 0px;
+        background-color: whitesmoke ;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 120px;
+        font-size: 35px;
+        border-radius: 30%;
+        font-weight: bolder;
+    
+        
+    }
+    .download-button:hover{
+        background-color: yellowgreen;
+    }
+    .btn-block{
+        font-size: 50px;
+    font-weight: 800px;
+    }
+    .last-button{
+        margin: 0px 30px 0px 0px;
+        background-color: cadetblue;;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 120px;
+        font-size: 35px;
+        border-radius: 30%;
+        font-weight: bolder;
+    }
+
+    /*navbar-toggler and nav-link*/
+    .navbar-toggler{
+        width: 100px;
+        height: 100px;
+        border-radius: 30%;
+        background-color: blanchedalmond;
+        height: 160px;
+        border-color: yellowgreen;
+        opacity: 0.7;
+        
+    }
+    .navbar-toggler-icon{
+        height: 150px;
+        font-weight: bolder;
+        line-height: 3;
+        color:white;
+    }
+    .nav-link{
+        font-size: 50px;
+        background-color: black;
+        border-radius: 30%;
+        width: 40%;
+        margin: 10px;
+    }
+    /*dropdown*/
+    
+    .dropdown-item{
+        font-size: 50px;
+        background-color: black;
+        border-radius: 30%;
+        width: 44%;
+        margin: 10px;
+        color:white;
+    
+    }
+    .dropdown-menus{
+        background-color: white;
+        text-align: center;
+        margin: 0;
+    
+    }
+    /* a tag*/
+    a{
+        color:green;
+    }
+    
+    /*icon*/
+    .icon{
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    /*feature*/
+    .feature1{
+        font-size: 60px;
+        
+    }
+    .feature2{
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bolder;
+        opacity: 0.9;
+        
+    }
+    /*carousel*/
+    .carousel-item{
+        width: 1000px;
+        text-align: center;
+    }
+    /* testimonial */
+    .testimonial-text{
+        font-size: 50px;
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    .testimonial-image1{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    }
+    /* press*/
+    
+    .press-logo{
+        height: 35px;
+        width: 250px;
+        margin: 20px;
+        padding: 0px 20px 0px 20px;
+        background-color:whitesmoke;
+        font-size: 200px;
+        font-size: 100px; 
+    }
+    
+    #press{
+        background-color:white;
+        padding:5% 10%;
+        width: 100%;
+        
+        }
+        .press12{
+            background-color: #FFF89C;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10%;
+        }
+        /*price*/
+        .priceh2{
+            color: white;
+            font-size: 50px;
+            margin: 50px;
+            font-weight: bolder;
+            line-height: 2;
+        }
+        .pricep{
+            color:white;
+            font-size: 45px;
+            font-weight: bolder;
+            margin: 50px;
+        }
+    /*li*/
+    
+        li{
+            font-size: 45px;
+        font-weight: 800px;
+        }
+        /*press*/
+        
+        .cta1{
+            margin-bottom: 40px;
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        /*footer*/
+        
+    .footers{
+        background-color: black;
+        height: 70px;
+    }
+    .lastp{
+        font-size: 35px;
+        opacity: 0.6;
+    }
+    
+    }
+    
